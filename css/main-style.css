@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------
+
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://www.cobadesigns.com/
+-----------------------------------------------------------------------------*/
+/* =@imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =variables
+-----------------------------------------------------------------------------*/
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+/* line 28, ../sass/main-style.scss */
+a:link, a:visited, a:hover, a:focus, a:active
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Class for clearing floats */
+/* line 34, ../sass/main-style.scss */
+.clear {
+  clear: both;
+}
+
+/* Remove border around linked images */
+/* line 40, ../sass/main-style.scss */
+img {
+  border: 0;
+}
+
+/* =Typography
+-----------------------------------------------------------------------------*/
+/* line 48, ../sass/main-style.scss */
+body {
+  font-style: monaco, "lucida console", "dejavu sans mono", "bitstream vera sans mono", "liberation mono", monospace;
+  font-size: 10px;
+}
+
+/* line 53, ../sass/main-style.scss */
+header {
+  width: 100%;
+  max-width: 100%;
+  border: solid 1px red;
+  margin: 0 auto;
+}
+
+/* line 60, ../sass/main-style.scss */
+div#header-wrap {
+  width: 100%;
+  max-width: 100em;
+  border: solid 1px green;
+  margin: 0 auto;
+}
+
+/* line 71, ../sass/main-style.scss */
+.main-nav ul li {
+  list-style: none;
+}
+/* line 74, ../sass/main-style.scss */
+.main-nav ul li a {
+  text-decoration: none;
+}

@@ -1,0 +1,97 @@
+/*-----------------------------------------------------------------------------
+
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://www.cobadesigns.com/
+-----------------------------------------------------------------------------*/
+
+/* =@imports
+-----------------------------------------------------------------------------*/
+
+@import 'fontfamily';
+@import 'colors';
+
+/* =variables
+-----------------------------------------------------------------------------*/
+
+$general-font-size: 10px;
+$border: solid 1px;
+
+
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited, a:hover, a:focus, a:active
+
+
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Class for clearing floats */
+.clear {
+	clear:both;
+}
+
+
+/* Remove border around linked images */
+img {
+	border: 0;
+}
+
+
+/* =Typography
+-----------------------------------------------------------------------------*/
+
+body {
+  font-style: $monaco;
+  font-size: $general-font-size;
+}
+
+header{
+	width: 100%;
+	max-width: 100%;
+	border: $border red;
+	margin: 0 auto;
+}
+
+div#header-wrap{
+	width:100%;
+	max-width: 100em;
+	border: $border green;
+	margin: 0 auto;
+}
+
+.main-nav{
+
+	ul{
+
+		li{
+			list-style: none;
+
+			a{
+				text-decoration: none;
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
