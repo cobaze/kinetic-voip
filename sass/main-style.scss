@@ -18,6 +18,17 @@ $general-font-size: 10px;
 $border: solid 1px;
 
 
+/* =mixins
+-----------------------------------------------------------------------------*/
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
 /* =Remember Order Of Styling Links
 -----------------------------------------------------------------------------*/
 
@@ -107,7 +118,6 @@ div#header-wrap{
 				&:hover, &:focus, &:active{
 					color:$bg-color;
 				}
-
 			}
 		}
 	}
@@ -121,9 +131,10 @@ section#static-img{
 	background-image: url(../imgs/slid-5.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
+	margin-bottom: 5em;
 
 	h1{
-		color: #ffffff;
+		color: $color-white;
 		border: $border green;
 		width: 100%;
 		max-width: 23em;
@@ -138,6 +149,49 @@ section#static-img{
 section#events{
 
 	@extend div#header-wrap;
+	border-top: $border $font-color;
+
+	h1{
+		text-align: center;
+		color: $font-color;
+		background-color: $color-white;
+		position: relative;
+		top: -0.7em;
+		width: 100%;
+		max-width: 12em;
+		margin: 0 auto;
+	}
+}
+
+div.event-wrap{
+	border: $border green;
+	height: 30em;
+}
+
+div.nevents{
+	max-width: 30em;
+	width: 100%;
+	border: $border red;
+	float: left;
+	box-sizing: border-box;
+	padding: 2%;
+	margin-right: 4.82%;
+	background-color: #959595;
+	@include border-radius(.9em);
+
+	&:last-child{
+		margin-right: 0 !important
+	}
+
+	h2{
+		color: $color-white;
+		font-weight: 400;
+		margin-bottom:
+	}
+
+	p{
+		font-size: 1.4em;
+	}
 }
 
 

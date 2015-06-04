@@ -1,130 +1,79 @@
-/*-----------------------------------------------------------------------------
+/*
+Syntax error: Invalid CSS after "		margin-bottom:": expected expression (e.g. 1px, bold), was "}"
+        on line 190 of /Users/chuckobazemacbookair/Documents/kinetic-voip/sass/main-style.scss
 
-author:    Chuck Obaze
-email:     obazechuck@gmail.com
-website:   http://www.cobadesigns.com/
------------------------------------------------------------------------------*/
-/* =@imports
------------------------------------------------------------------------------*/
-/* START FONT FAMILY*/
-/* END FONT FAMILY*/
-/* =variables
------------------------------------------------------------------------------*/
-/* =Remember Order Of Styling Links
------------------------------------------------------------------------------*/
-/* line 28, ../sass/main-style.scss */
-a:link, a:visited, a:hover, a:focus, a:active
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Class for clearing floats */
-/* line 34, ../sass/main-style.scss */
-.clear {
-  clear: both;
-}
-
-/* =Typography
------------------------------------------------------------------------------*/
-/* line 41, ../sass/main-style.scss */
-body, html {
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  width: 100%;
-  max-width: 100%;
-}
-
-/* line 48, ../sass/main-style.scss */
-header {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-/* line 54, ../sass/main-style.scss */
-div#header-wrap, section#events {
-  width: 100%;
-  max-width: 100em;
-  margin: 0 auto;
-}
-
-/* line 60, ../sass/main-style.scss */
-.social {
-  position: absolute;
-  top: 1.5em;
-  right: 46em;
-  width: 3.5%;
-  border: solid 1px red;
-}
-/* line 67, ../sass/main-style.scss */
-.social img {
-  width: 2em;
-  margin-right: 1%;
-}
-/* line 71, ../sass/main-style.scss */
-.social img:last-child {
-  margin-right: 0 !important;
-}
-
-/* line 77, ../sass/main-style.scss */
-.main-nav {
-  float: right;
-  position: relative;
-  top: 7.5em;
-  max-width: 41.4em;
-  width: 100%;
-  border: solid 1px red;
-}
-/* line 85, ../sass/main-style.scss */
-.main-nav ul {
-  margin: 0;
-  padding: 0;
-}
-/* line 89, ../sass/main-style.scss */
-.main-nav ul li {
-  list-style: none;
-  margin-right: 4%;
-  display: inline-block;
-  margin: 0em 1em 0em 0em;
-  overflow: hidden;
-}
-/* line 96, ../sass/main-style.scss */
-.main-nav ul li:last-child {
-  margin-right: 0 !important;
-}
-/* line 100, ../sass/main-style.scss */
-.main-nav ul li a {
-  text-decoration: none;
-  font-size: 1.6em;
-  color: gray;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-/* line 107, ../sass/main-style.scss */
-.main-nav ul li a:hover, .main-nav ul li a:focus, .main-nav ul li a:active {
-  color: #45c4ed;
-}
-
-/* line 116, ../sass/main-style.scss */
-section#static-img {
-  height: 60em;
-  width: 100%;
-  max-width: 100%;
-  background-size: cover;
-  background-image: url(../imgs/slid-5.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-/* line 125, ../sass/main-style.scss */
-section#static-img h1 {
-  color: #ffffff;
-  border: solid 1px green;
-  width: 100%;
-  max-width: 23em;
-  margin: 0 auto;
-  display: block;
-  font-size: 5.3em;
-  font-style: "Roboto", sans-serif;
-  font-weight: bold;
-}
+Backtrace:
+/Users/chuckobazemacbookair/Documents/kinetic-voip/sass/main-style.scss:190
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1129:in `expected'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/lexer.rb:199:in `expected!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/parser.rb:471:in `assert_expr'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/parser.rb:49:in `parse'
+org/jruby/RubyKernel.java:2092:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1005:in `sass_script'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:865:in `value!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:842:in `declaration'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:565:in `declaration_or_ruleset'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:574:in `declaration_or_ruleset'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1104:in `rethrow'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:537:in `block_child'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:518:in `block'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:512:in `ruleset'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:536:in `block_child'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:529:in `block_contents'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:70:in `stylesheet'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:27:in `parse'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:342:in `_to_tree'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"		margin-bottom:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 190 of /Users/chuckobazemacbookair/Documents/kinetic-voip/sass/main-style.scss"; }
