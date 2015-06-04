@@ -35,18 +35,11 @@ a:link, a:visited, a:hover, a:focus, a:active
 	clear:both;
 }
 
-
-/* Remove border around linked images */
-img {
-	border: 0;
-}
-
-
 /* =Typography
 -----------------------------------------------------------------------------*/
 
-body {
-  font-style: $monaco;
+body, html {
+  font-family: $roboto;
   font-size: $general-font-size;
 }
 
@@ -64,16 +57,44 @@ div#header-wrap{
 	margin: 0 auto;
 }
 
+.social{
+
+	img{
+		width: 3em;
+		border: $border red;
+		position: absolute;
+		top:0;
+		right: 20em;
+	}
+}
+
 .main-nav{
+	border: $border red;
+	float: right;
+	position: relative;
+	top: 4.5em;
+	max-width: 40em;
+	width: 100%;
 
 	ul{
+		margin: 0;
+		padding: 0;
 
 		li{
 			list-style: none;
+			margin-right: 4%;
+			display: inline-block;
+
+			&:last-child{
+				margin-right: 0 !important;
+			}
 
 			a{
 				text-decoration: none;
-
+				font-size: 1.4em;
+				color: #000000;
+				font-family: $roboto;
+				font-weight: 400;
 			}
 		}
 	}

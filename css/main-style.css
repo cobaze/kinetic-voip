@@ -25,21 +25,15 @@ a:link, a:visited, a:hover, a:focus, a:active
   clear: both;
 }
 
-/* Remove border around linked images */
-/* line 40, ../sass/main-style.scss */
-img {
-  border: 0;
-}
-
 /* =Typography
 -----------------------------------------------------------------------------*/
-/* line 48, ../sass/main-style.scss */
-body {
-  font-style: monaco, "lucida console", "dejavu sans mono", "bitstream vera sans mono", "liberation mono", monospace;
+/* line 41, ../sass/main-style.scss */
+body, html {
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
 }
 
-/* line 53, ../sass/main-style.scss */
+/* line 46, ../sass/main-style.scss */
 header {
   width: 100%;
   max-width: 100%;
@@ -47,7 +41,7 @@ header {
   margin: 0 auto;
 }
 
-/* line 60, ../sass/main-style.scss */
+/* line 53, ../sass/main-style.scss */
 div#header-wrap {
   width: 100%;
   max-width: 100em;
@@ -55,11 +49,44 @@ div#header-wrap {
   margin: 0 auto;
 }
 
+/* line 62, ../sass/main-style.scss */
+.social img {
+  width: 3em;
+  border: solid 1px red;
+  position: absolute;
+  top: 0;
+  right: 20em;
+}
+
 /* line 71, ../sass/main-style.scss */
+.main-nav {
+  border: solid 1px red;
+  float: right;
+  position: relative;
+  top: 4.5em;
+  max-width: 40em;
+  width: 100%;
+}
+/* line 79, ../sass/main-style.scss */
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 83, ../sass/main-style.scss */
 .main-nav ul li {
   list-style: none;
+  margin-right: 4%;
+  display: inline-block;
 }
-/* line 74, ../sass/main-style.scss */
+/* line 88, ../sass/main-style.scss */
+.main-nav ul li:last-child {
+  margin-right: 0 !important;
+}
+/* line 92, ../sass/main-style.scss */
 .main-nav ul li a {
   text-decoration: none;
+  font-size: 1.4em;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
