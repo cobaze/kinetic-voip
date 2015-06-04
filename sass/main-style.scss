@@ -41,40 +41,46 @@ a:link, a:visited, a:hover, a:focus, a:active
 body, html {
   font-family: $roboto;
   font-size: $general-font-size;
+  width: 100%;
+  max-width: 100%;
 }
 
 header{
 	width: 100%;
 	max-width: 100%;
-	border: $border red;
 	margin: 0 auto;
 }
 
 div#header-wrap{
 	width:100%;
 	max-width: 100em;
-	border: $border green;
 	margin: 0 auto;
 }
 
 .social{
+	position: absolute;
+	top: 1.5em;
+	right: 46em;
+	width: 3.5%;
+	border: $border red;
 
 	img{
-		width: 3em;
-		border: $border red;
-		position: absolute;
-		top:0;
-		right: 20em;
+		width: 2em;
+		margin-right: 1%;
+
+		&:last-child{
+			margin-right: 0 !important;
+		}
 	}
 }
 
 .main-nav{
-	border: $border red;
 	float: right;
 	position: relative;
-	top: 4.5em;
-	max-width: 40em;
+	top: 7.5em;
+	max-width: 41.4em;
 	width: 100%;
+	border: $border red;
 
 	ul{
 		margin: 0;
@@ -84,6 +90,8 @@ div#header-wrap{
 			list-style: none;
 			margin-right: 4%;
 			display: inline-block;
+			margin: 0em 1em 0em 0em;
+			overflow: hidden;
 
 			&:last-child{
 				margin-right: 0 !important;
@@ -91,19 +99,46 @@ div#header-wrap{
 
 			a{
 				text-decoration: none;
-				font-size: 1.4em;
-				color: #000000;
+				font-size: 1.6em;
+				color: $font-color;
 				font-family: $roboto;
-				font-weight: 400;
+				font-weight: 500;
+
+				&:hover, &:focus, &:active{
+					color:$bg-color;
+				}
+
 			}
 		}
 	}
 }
 
+section#static-img{
+	height: 60em;
+	width: 100%;
+	max-width: 100%;
+	background-size: cover;
+	background-image: url(../imgs/slid-5.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
 
+	h1{
+		color: #ffffff;
+		border: $border green;
+		width: 100%;
+		max-width: 23em;
+		margin: 0 auto;
+		display: block;
+		font-size: 5.3em;
+		font-style: $roboto;
+		font-weight: bold;
+	}
+}
 
+section#events{
 
-
+	@extend div#header-wrap;
+}
 
 
 

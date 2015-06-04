@@ -31,62 +31,100 @@ a:link, a:visited, a:hover, a:focus, a:active
 body, html {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
+  width: 100%;
+  max-width: 100%;
 }
 
-/* line 46, ../sass/main-style.scss */
+/* line 48, ../sass/main-style.scss */
 header {
   width: 100%;
   max-width: 100%;
-  border: solid 1px red;
   margin: 0 auto;
 }
 
-/* line 53, ../sass/main-style.scss */
-div#header-wrap {
+/* line 54, ../sass/main-style.scss */
+div#header-wrap, section#events {
   width: 100%;
   max-width: 100em;
-  border: solid 1px green;
   margin: 0 auto;
 }
 
-/* line 62, ../sass/main-style.scss */
-.social img {
-  width: 3em;
-  border: solid 1px red;
+/* line 60, ../sass/main-style.scss */
+.social {
   position: absolute;
-  top: 0;
-  right: 20em;
+  top: 1.5em;
+  right: 46em;
+  width: 3.5%;
+  border: solid 1px red;
+}
+/* line 67, ../sass/main-style.scss */
+.social img {
+  width: 2em;
+  margin-right: 1%;
+}
+/* line 71, ../sass/main-style.scss */
+.social img:last-child {
+  margin-right: 0 !important;
 }
 
-/* line 71, ../sass/main-style.scss */
+/* line 77, ../sass/main-style.scss */
 .main-nav {
-  border: solid 1px red;
   float: right;
   position: relative;
-  top: 4.5em;
-  max-width: 40em;
+  top: 7.5em;
+  max-width: 41.4em;
   width: 100%;
+  border: solid 1px red;
 }
-/* line 79, ../sass/main-style.scss */
+/* line 85, ../sass/main-style.scss */
 .main-nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 83, ../sass/main-style.scss */
+/* line 89, ../sass/main-style.scss */
 .main-nav ul li {
   list-style: none;
   margin-right: 4%;
   display: inline-block;
+  margin: 0em 1em 0em 0em;
+  overflow: hidden;
 }
-/* line 88, ../sass/main-style.scss */
+/* line 96, ../sass/main-style.scss */
 .main-nav ul li:last-child {
   margin-right: 0 !important;
 }
-/* line 92, ../sass/main-style.scss */
+/* line 100, ../sass/main-style.scss */
 .main-nav ul li a {
   text-decoration: none;
-  font-size: 1.4em;
-  color: #000000;
+  font-size: 1.6em;
+  color: gray;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+}
+/* line 107, ../sass/main-style.scss */
+.main-nav ul li a:hover, .main-nav ul li a:focus, .main-nav ul li a:active {
+  color: #45c4ed;
+}
+
+/* line 116, ../sass/main-style.scss */
+section#static-img {
+  height: 60em;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(../imgs/slid-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/* line 125, ../sass/main-style.scss */
+section#static-img h1 {
+  color: #ffffff;
+  border: solid 1px green;
+  width: 100%;
+  max-width: 23em;
+  margin: 0 auto;
+  display: block;
+  font-size: 5.3em;
+  font-style: "Roboto", sans-serif;
+  font-weight: bold;
 }
