@@ -73,7 +73,6 @@ div#header-wrap{
 	top: 1.5em;
 	right: 46em;
 	width: 3.5%;
-	border: $border red;
 
 	img{
 		width: 2em;
@@ -91,7 +90,6 @@ div#header-wrap{
 	top: 7.5em;
 	max-width: 41.4em;
 	width: 100%;
-	border: $border red;
 
 	ul{
 		margin: 0;
@@ -137,19 +135,33 @@ section#static-img{
 		color: $color-white;
 		border: $border green;
 		width: 100%;
-		max-width: 23em;
+		max-width: 8.6em;
 		margin: 0 auto;
 		display: block;
-		font-size: 5.3em;
+		font-size: 6em;
 		font-style: $roboto;
 		font-weight: bold;
+		text-align: center;
+	}
+
+	h2{
+		color: $color-white;
+		border: $border green;
+		width: 100%;
+		max-width: 5em;
+		margin: 0 auto;
+		display: block;
+		font-size: 2em;
+		font-style: $roboto;
+		font-weight: bold;
+		text-align: center;
 	}
 }
 
 section#events{
 
 	@extend div#header-wrap;
-	border-top: $border $font-color;
+	border-top: solid 3px $bg-color;
 
 	h1{
 		text-align: center;
@@ -176,7 +188,7 @@ div.nevents{
 	box-sizing: border-box;
 	padding: 2%;
 	margin-right: 4.82%;
-	background-color: #959595;
+	background-color: #DCDCDC;
 	@include border-radius(.9em);
 
 	&:last-child{
@@ -186,7 +198,7 @@ div.nevents{
 	h2{
 		color: $color-white;
 		font-weight: 400;
-		margin-bottom:
+		margin-bottom: 3em;
 	}
 
 	p{
