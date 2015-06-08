@@ -112,9 +112,9 @@ section#static-img {
   width: 100%;
   max-width: 100%;
   background-size: cover;
-  background-image: url(../imgs/slid-5.jpg);
+  background-image: url(../imgs/slid-6.jpg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   margin-bottom: 5em;
 }
 /* line 134, ../sass/main-style.scss */
