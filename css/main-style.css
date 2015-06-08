@@ -49,39 +49,49 @@ div#header-wrap, section#events {
   width: 100%;
   max-width: 100em;
   margin: 0 auto;
+  height: 11em;
 }
 
-/* line 71, ../sass/main-style.scss */
-.social {
-  position: absolute;
-  top: 1.5em;
-  right: 46em;
-  width: 3.5%;
+/* line 72, ../sass/main-style.scss */
+.logo {
+  float: left;
 }
-/* line 77, ../sass/main-style.scss */
+
+/* line 76, ../sass/main-style.scss */
+.social {
+  position: relative;
+  top: 1em;
+  /* right: -12em; */
+  width: 6.7%;
+  float: right;
+  border: solid red 1px;
+}
+/* line 84, ../sass/main-style.scss */
 .social img {
   width: 2em;
   margin-right: 1%;
 }
-/* line 81, ../sass/main-style.scss */
+/* line 88, ../sass/main-style.scss */
 .social img:last-child {
   margin-right: 0 !important;
 }
 
-/* line 87, ../sass/main-style.scss */
-.main-nav {
-  float: right;
-  position: relative;
-  top: 7.5em;
-  max-width: 41.4em;
-  width: 100%;
-}
 /* line 94, ../sass/main-style.scss */
+.main-nav {
+  position: relative;
+  top: -2.5em;
+  clear: both;
+  max-width: 41.4em;
+  border: solid red 1px;
+  width: 100%;
+  right: -58.5em;
+}
+/* line 103, ../sass/main-style.scss */
 .main-nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 98, ../sass/main-style.scss */
+/* line 107, ../sass/main-style.scss */
 .main-nav ul li {
   list-style: none;
   margin-right: 4%;
@@ -89,11 +99,11 @@ div#header-wrap, section#events {
   margin: 0em 1em 0em 0em;
   overflow: hidden;
 }
-/* line 105, ../sass/main-style.scss */
+/* line 114, ../sass/main-style.scss */
 .main-nav ul li:last-child {
   margin-right: 0 !important;
 }
-/* line 109, ../sass/main-style.scss */
+/* line 118, ../sass/main-style.scss */
 .main-nav ul li a {
   text-decoration: none;
   font-size: 1.6em;
@@ -101,12 +111,12 @@ div#header-wrap, section#events {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
-/* line 116, ../sass/main-style.scss */
+/* line 125, ../sass/main-style.scss */
 .main-nav ul li a:hover, .main-nav ul li a:focus, .main-nav ul li a:active {
   color: #45c4ed;
 }
 
-/* line 124, ../sass/main-style.scss */
+/* line 133, ../sass/main-style.scss */
 section#static-img {
   height: 60em;
   width: 100%;
@@ -117,7 +127,7 @@ section#static-img {
   background-position: center center;
   margin-bottom: 5em;
 }
-/* line 134, ../sass/main-style.scss */
+/* line 143, ../sass/main-style.scss */
 section#static-img h1 {
   color: white;
   border: solid 1px green;
@@ -130,7 +140,7 @@ section#static-img h1 {
   font-weight: bold;
   text-align: center;
 }
-/* line 147, ../sass/main-style.scss */
+/* line 156, ../sass/main-style.scss */
 section#static-img h2 {
   color: white;
   border: solid 1px green;
@@ -144,11 +154,11 @@ section#static-img h2 {
   text-align: center;
 }
 
-/* line 161, ../sass/main-style.scss */
+/* line 170, ../sass/main-style.scss */
 section#events {
   border-top: solid 3px #45c4ed;
 }
-/* line 166, ../sass/main-style.scss */
+/* line 175, ../sass/main-style.scss */
 section#events h1 {
   text-align: center;
   color: gray;
@@ -160,13 +170,13 @@ section#events h1 {
   margin: 0 auto;
 }
 
-/* line 178, ../sass/main-style.scss */
+/* line 187, ../sass/main-style.scss */
 div.event-wrap {
   border: solid 1px green;
   height: 30em;
 }
 
-/* line 183, ../sass/main-style.scss */
+/* line 192, ../sass/main-style.scss */
 div.nevents {
   max-width: 30em;
   width: 100%;
@@ -181,17 +191,17 @@ div.nevents {
   -ms-border-radius: 0.9em;
   border-radius: 0.9em;
 }
-/* line 194, ../sass/main-style.scss */
+/* line 203, ../sass/main-style.scss */
 div.nevents:last-child {
   margin-right: 0 !important;
 }
-/* line 198, ../sass/main-style.scss */
+/* line 207, ../sass/main-style.scss */
 div.nevents h2 {
   color: white;
   font-weight: 400;
   margin-bottom: 3em;
 }
-/* line 204, ../sass/main-style.scss */
+/* line 213, ../sass/main-style.scss */
 div.nevents p {
   font-size: 1.4em;
 }
